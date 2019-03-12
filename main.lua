@@ -83,7 +83,7 @@ function items()
 		i = i + 1
 		local file = files[i]
 		if not file then return end
-		local col = 1-- + ((i - 1) % perRow)
+		local col = 1
 		local row = math.ceil(i / perRow)
 		local x = -xspacing * (perRow - 1) / 2 + xspacing * (col - 1)
 		local y = yspacing * (rows - 1) / 2 - yspacing * (row - 1)

@@ -54,14 +54,6 @@ function setUpperEdges(file, prevFile)
 	end
 end
 
-function getUpperEdge()
-	return upperEdge
-end
-
-function getNextLowerEdge()
-	return nextLowerEdge
-end
-
 function setLowerEdges(file, nextFile)
 	if file ~= lowerEdge then
 		lowerEdge = file
